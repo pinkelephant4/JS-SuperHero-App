@@ -1,0 +1,80 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+#heroImage {
+  width: 25%;
+  border: 2px solid grey;
+  text-align: center;
+  padding: 10px;
+  border-radius: 9px;
+  margin: 5px;
+}
+
+#statsDiv {
+  width: 25%;
+  border: 2px solid grey;
+  text-align: center;
+  padding: 10px;
+  border-radius: 9px;
+  margin: 5px;
+}
+
+.resultsDiv {
+  margin-left: 20px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.img {
+  /* border: solid 2px; */
+  border-radius: 9px;
+}
+
+#searchInput {
+  width: 20%;
+}
+
+.inputDiv {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.inpContent {
+  margin: 20px;
+}
+
+.main > p {
+  margin: 20px;
+}
+
+.main > h2 {
+  margin: 20px;
+  border: solid 2px grey;
+  width: max-content;
+  padding: 10px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  height: 50px;
+}
+
+.topDiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+.alertDiv{
+  position: absolute;
+  margin-left: 80%;
+
+}
